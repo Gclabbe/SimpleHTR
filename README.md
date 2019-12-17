@@ -4,9 +4,11 @@ Tensorflow 2.0 throws and error.  Need to make an environment and work through s
 
 Also setting up the environment to use Python 3.5 because my system doesn't seem to like OpenCV using Python 3.7.
 
-conda create --name SimpleHTR python=3.5
-pip install tensorflow==1.12.0
-python -m pip intall --upgrade pip (if you get an old version msg)
+* conda create --name SimpleHTR python=3.5
+* pip install tensorflow==1.12.0
+* python -m pip intall --upgrade pip (if you get an old version msg)
+* conda install -c menpo opencv (older version)
+* pip install editdistance
 
 
 
